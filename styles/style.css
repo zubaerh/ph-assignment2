@@ -680,12 +680,8 @@ margin-bottom: 15px;
                       }
                     
                     /* Responsive Design */
-                    /* @media (max-width: 768px) {
-                        .stories-container {
-                            grid-template-columns: 1fr;
+                    @media screen and (max-width: 576px) {
+                        .card-container {
+                            grid-template-columns: repeat(1, 1fr);
                         }
-                    
-                        .story.large {
-                            grid-column: span 1;
-                        }
-                    } */
+                    }

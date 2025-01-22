@@ -206,7 +206,7 @@ justify-content: flex-start;
 align-items: center;
 gap: 10;
 padding: 10px;
-margin-bottom: 50px;
+margin-bottom: 200px;
 
 
                       }
@@ -331,3 +331,36 @@ text-align: center;
 cursor: pointer;
 text-decoration: none;
                       }
+
+
+                      .button-container {
+                        position: static;
+                        display: flex;
+                        justify-content: center; 
+                        align-items: center; 
+                        gap: 15px; 
+                        margin-top: 50px; 
+                        padding: 10px;
+                    }
+                    
+                    button {
+                        background-color: rgb(255, 165, 0); 
+                        border: none;
+                        color: white;
+                        font-size: 20px; 
+                        padding: 10px 15px;
+                        border-radius: 50%; 
+                        cursor: pointer;
+                        transition: transform 0.3s ease;
+                        outline: none;
+                    }
+                    
+                    button:hover {
+                        transform: scale(1.1); 
+                    }
+                    
+                    .prev-button, .next-button {
+                        font-weight: bold; 
+                        text-align: center;
+                    }
+                    
